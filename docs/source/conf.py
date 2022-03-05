@@ -62,15 +62,12 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'nbsphinx',
-    'sphinx.ext.autodoc',
-    'nbsphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.githubpages',
-    'IPython.sphinxext.ipython_console_highlighting',
 ]
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
 # html_theme = 'furo'
 
-source_suffix = ['.rst', '.ipynb']
+# source_suffix = ['.rst', '.ipynb']
