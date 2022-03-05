@@ -11,4 +11,4 @@ formats:
 
 # use a conda environment file
 conda:
-  file: documentation/readthedocs-environment.yml
+  file: readthedocs-environment.yml
