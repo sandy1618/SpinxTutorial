@@ -14,9 +14,11 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
 Check out the :doc:`usage` section for further information, including how to
 :ref:`install <installation>` the project.
 
-Contents
---------
+
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
    usage
+   notebooks/OutputExamples
