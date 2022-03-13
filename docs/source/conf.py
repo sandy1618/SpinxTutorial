@@ -64,7 +64,9 @@ extensions = [
     'nbsphinx',
     'sphinx.ext.mathjax',
     'sphinx.ext.githubpages',
+    'IPython.sphinxext.ipython_console_highlighting',
 ]
+# Upgrade ipython 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #

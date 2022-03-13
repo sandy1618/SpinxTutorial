@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python==3.7
   - pandoc
+  - pip>20
   - nbformat
   - jupyter_client
   - ipython
