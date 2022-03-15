@@ -17,8 +17,10 @@ Check out the :doc:`usage` section for further information, including how to
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
+   notebooks/index
+   user_guide/index
+   usage
    
-   notebooks/OutputExamples

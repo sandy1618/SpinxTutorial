@@ -4,6 +4,7 @@ Install [mini-conda](https://docs.conda.io/projects/conda/en/latest/user-guide/i
 - conda env create -f readthedocs-environment.yml
 - conda activate <environment_name>
 - conda deactivate
+- conda env update -f readthedocs-environment.yml
 ### For Jupyther Notebooks
 pip install nbsphinx
 
