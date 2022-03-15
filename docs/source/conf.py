@@ -47,7 +47,24 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
+
+
+html_theme = "pydata_sphinx_theme"
+html_theme_options = {
+  "show_toc_level": 1,
+  "show_nav_level": 4,
+  "navbar_end": ["navbar-icon-links.html", "search-field.html"],
+  "search_bar_text": "Search here...",
+  "page_sidebar_items": ["page-toc", "edit-this-page"],
+  "left_sidebar_end": ["sidebar-ethical-ads"],
+
+
+}
+html_sidebars = {
+    "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".

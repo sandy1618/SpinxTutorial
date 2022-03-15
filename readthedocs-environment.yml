@@ -13,5 +13,6 @@ dependencies:
   - sphinx>=1.5.1
   - ipykernel
   - sphinx_rtd_theme
+  - pydata-sphinx-theme
   - pip:
     - nbsphinx
