@@ -51,16 +51,34 @@ exclude_patterns = []
 
 
 html_theme = "pydata_sphinx_theme"
+# html_logo = "_static/logo_passion.png"
 html_theme_options = {
   "show_toc_level": 1,
   "show_nav_level": 4,
   "navbar_end": ["navbar-icon-links.html", "search-field.html"],
   "search_bar_text": "Search here...",
   "page_sidebar_items": ["page-toc", "edit-this-page"],
-  "left_sidebar_end": ["sidebar-ethical-ads"],
-
-
+  # "left_sidebar_end": ["sidebar-ethical-ads"],
+  "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/sandy1618/SpinxTutorial",
+            "icon": "fab fa-github-square",
+            "type": "fontawesome",
+        },
+       
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/sandeep-kumar-nayak-48085865/",
+            "icon": "fab fa-linkedin",
+            "type": "fontawesome",
+            # The default for `type` is `fontawesome` so it is not actually required in any of the above examples as it is shown here
+        },
+    ],
 }
+
+
+
 html_sidebars = {
     "**": ["search-field.html", "sidebar-nav-bs.html", "sidebar-ethical-ads.html"]
 }
